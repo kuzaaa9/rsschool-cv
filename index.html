@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preload" href="/fonts/worksans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <title>Resume Elena Chernysheva</title>
+</head>
+<body class="body container">
+  <header class="body__header header">
+    <h2 class="header__link-title visually-hidden">
+      Link to the school
+    </h2> 
+    <a class="header__link" href="https://app.rs.school/">rsschool-cv
+    </a>
+    <h1 class="header__myname border">Elena Chernysheva
+    </h1>
+    <h2 class="header__general-info visually-hidden ">General info:
+    </h2>
+    <ul class="header__wrapp">
+      <li class="header__wrapp-item border">
+        <h3 class="header____title">Location:
+        </h3>
+        <p>the city of St. Petersburg 
+        </p>
+      </li>
+      <li class="header__wrapp-item border">
+        <h3 class="header__title">Junior Frontend Developer
+        </h3>
+      </li>
+      <li class="header__wrapp-item contact border">
+        <h3 class="header__title ">Contact information:
+        </h3>
+        <ul class="contact__list">
+          <li class="contact__item">
+            <span>E-mail:</span>
+            <a href="#" title="Email">cher_cher@mail.ru
+            </a>
+          </li>
+          <li class="contact__item">
+            <span>Telegram:</span>
+            <a href="#" title="Telegram">@lena_chernny833
+            </a>
+          </li>
+          <li class="contact__item">
+            <span>GitHub:</span>
+            <a href="#" title="GitHub">kuzaaa9</a>
+          </li>
+        </ul>
+      </li> 
+    </ul>
+  </header>
+  <main class="myself">
+    <ul class="myself__info info">
+      <li class="info__item border">
+        <h3 class="myself__title">About me:
+        </h3>
+        <div class="info__block">
+          <P>I want to develop in the direction from design to layout and design of websites.
+           In 2019, she took distance courses at the HTML Academy "HTML and CSS, level 1", in 2020 " HTML and CSS. Adaptive layout and automation”.
+           In 2020, she completed the refresher course "Fundamentals of Graphic Design" at the St. Petersburg State University of Industrial Technologies and Design on the competence of graphic design. 
+           </P>
+           <P>I lo modern art, namely video art and photography. I attend the lecture hall of the Chief of Staff at the Hermitage in this direction.
+           </P>
+           <P>I like it when writing code turns into a visual series and a live interface.
+           In the future, and indeed even now -this time has come, all analog art will be transferred to digital. I would like to participate in this
+           as a volunteer.
+           </P>
+        </div>
+      </li>
+      <li class="info__item border">
+        <h3 class="myself__title">Skills:
+        </h3>
+        <ul class="skills">
+          <li class="skills__item">HTML5</li>
+          <li class="skills__item">CSS3 (SASS preprocessor, BEM methodology)</li>
+          <li class="skills__item">JavaScript Basics</li>
+          <li class="skills__item">Gulp</li>
+          <li class="skills__item">Git</li>
+          <li class="skills__item">Sublime Text</li>
+          <li class="skills__item">Adobe Illustrator, Figma (for web development)</li>
+        </ul>
+      </li>
+      <li class="info__item myself__code-wrapp border">
+        <h3 class="myself__title">Sample code:</h3>
+<pre class="myself__pre">
+<code class="myself__code">
+var navMain = document.querySelector('.main-nav');
+var navToggle = document.querySelector('.main-nav__toggle');
+navMain.classList.remove('main-nav--nojs');
+
+navToggle.addEventListener('click', function() {
+  if (navMain.classList.contains('main-nav--closed')) {
+    navMain.classList.remove('main-nav--closed');
+    navMain.classList.add('main-nav--opened');
+  }
+
+  else {
+    navMain.classList.add('main-nav--closed');
+    navMain.classList.remove('main-nav--opened');
+  }
+ }
+);
+</code>
+</pre>
+      </li>
+      <li class="info__item border">
+        <h3 class="myself__title">Courses:
+        </h3>
+        <ul class="myself__courses courses">
+          <li class="courses__item"> HTML Academy " HTML and CSS, level 1”,
+          </li>
+          <li class="courses__item"> HTML Academy " HTML and CSS. Adaptive layout and automation
+          </li>
+          <li class="courses__item">"Fundamentals of graphic Design" at the "St. Petersburg State University of Industrial Technologies and Design" on the competence of graphic design .
+          </li>
+        </ul>
+      </li>
+      <li class="info__item myself__education education border">  
+        <h3 class="myself__title">Education:
+        </h3>
+        <div class="education__block">Moscow Automobile and Road Institute Qualification "civil engineer" 
+        </div>
+       </li> 
+       <li class="info__item border">
+         <h3 class="myself__title">Languages
+         </h3>
+         <ul class="languages">
+          <li class="languages__item">Russian</li>
+          <li class="languages__item">English - I'm starting to learn</li>
+         </ul>
+      </li>
+    </ul> 
+  </main>
+</body>
+</html>
