@@ -1,21 +1,20 @@
-##[rsshool-cv](https://app.rs.school/)
+## [rsshool-cv](https://app.rs.school/)
 
-#Elena Chernysheva
-###Location:  
-the city of St. Petersburg
+# Elena Chernysheva
+### Location:  St. Petersburg
 
 ***
-###Junior Frontend Developer
+### Junior Frontend Developer
 ***
 
-###Contact information:
+### Contact information:
 *  **E-mail:** [cher_cher@mail.ru](http:/#)  
 *  **Telegram:** [@lena_chernny833](http:/#),  
 *  **GitHub:** [kuzaaa9](http:/#)
 
 ***
 
-###About me:
+### About me:
 
 I want to develop in the direction from design to layout and design of websites.
 In 2019, she took distance courses at the HTML Academy "HTML and CSS, level 1", in 2020 " HTML and CSS. Adaptive layout and automation”.
@@ -29,7 +28,7 @@ as a volunteer.
 
 ***
 
-###Skills:
+### Skills:
 
 *  HTML5  
 *  CSS3 (SASS preprocessor, BEM methodology)  
@@ -41,7 +40,7 @@ as a volunteer.
 
 ***
 
-###Sample code:
+### Sample code:
 
 Opening the mobile drop-down menu .
 ```js
@@ -65,7 +64,7 @@ Opening the mobile drop-down menu .
 
 ***
 
-###Courses:
+### Courses:
 
 *  HTML Academy " HTML and CSS, level 1”,
 *  HTML Academy " HTML and CSS. Adaptive layout and automation”,
@@ -73,14 +72,14 @@ Opening the mobile drop-down menu .
 
 ***
 
-###Education:
+### Education:
 
 Moscow Automobile and Road Institute
 Qualification "civil engineer" .
 
 ***
 
-###Languages:
+### Languages:
 
 *  Russian 
 *  English - I'm starting to learn.
